@@ -1,0 +1,18 @@
+@import url("./base/_normalize.css");
+@import url("./base/_variables.css"); /*cores*/
+@import url("./base/_base.css"); /*regras gerais*/
+@import url("./base/_responsive.css");
+
+@import url("./layout/_header.css"); 
+@import url("./layout/_navigation.css"); /*botões*/
+@import url("./layout/_main.css");
+@import url("./layout/_section-layout.css"); /*matérias em destaque*/
+@import url('./layout/_footer.css');
+
+@import url("./components/_card.css");
+@import url("./components/_section-components.css");
+@import url("./components/_newsletter.css");
+
+@import url("./pages/_performances.css");
+@import url("./pages/_history.css");
+@import url("./pages/_about.css");

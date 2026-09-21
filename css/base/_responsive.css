@@ -1,0 +1,359 @@
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+    /* HEADER */
+
+    header {
+        padding: 25px 5%;
+    }
+
+
+    /* MAIN */
+
+    main {
+        padding: 50px 5%;
+    }
+
+
+    /* INDEX */
+
+    .destaques {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* PERFORMANCES */
+
+    .agenda__lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .palcos__lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .temporada {
+        padding: 60px 5%;
+    }
+
+    .swan-lake {
+        padding: 70px 5%;
+    }
+
+
+    /* HISTORY */
+
+    .historias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ABOUT */
+
+    .sobre-bloco {
+        gap: 40px;
+        padding: 60px 5%;
+    }
+
+    .equipe__lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 5%;
+    }
+
+
+    /* NAVEGAÇÃO */
+
+    nav ul {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    nav a {
+        font-size: 0.65rem;
+    }
+
+
+    /* MAIN */
+
+    main {
+        padding: 40px 5%;
+    }
+
+
+    /* INDEX */
+
+    .destaques {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .editorial {
+        padding: 50px 0;
+    }
+
+    .editorial h1 {
+        font-size: 2.5rem;
+    }
+
+
+    /* PERFORMANCES */
+
+    .agenda {
+        padding: 40px 0;
+    }
+
+    .agenda h1 {
+        font-size: 2.8rem;
+    }
+
+    .agenda__lista {
+        grid-template-columns: 1fr;
+    }
+
+    .plie-digital {
+        margin: 40px 0;
+        padding: 40px 25px;
+    }
+
+    .plie-digital h2 {
+        font-size: 2rem;
+    }
+
+    .evento {
+        padding: 50px 0;
+    }
+
+    .evento h2 {
+        font-size: 2.5rem;
+    }
+
+    .temporada {
+        padding: 50px 25px;
+    }
+
+    .temporada h2 {
+        font-size: 2.3rem;
+    }
+
+    .palcos {
+        padding: 50px 0;
+    }
+
+    .palcos__lista {
+        grid-template-columns: 1fr;
+    }
+
+    .swan-lake {
+        padding: 60px 25px;
+    }
+
+    .swan-lake h2 {
+        font-size: 3rem;
+    }
+
+
+    /* HISTORY */
+
+    .history-intro {
+        padding: 40px 0;
+    }
+
+    .history-intro h1 {
+        font-size: 2.8rem;
+    }
+
+    .historias {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .historia-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .history-filtros {
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .history-filtros button {
+        font-size: 0.6rem;
+    }
+
+    .destaque-mes {
+        padding: 60px 25px;
+    }
+
+    .destaque-mes h2 {
+        font-size: 2.8rem;
+    }
+
+
+    /* ABOUT */
+
+    .missao {
+        padding: 50px 5%;
+    }
+
+    .missao h1 {
+        font-size: 2.8rem;
+    }
+
+    .missao__texto {
+        font-size: 1.1rem;
+    }
+
+    .sobre-bloco {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 50px 5%;
+    }
+
+    .sobre-bloco__titulo h2 {
+        font-size: 2rem;
+    }
+
+    .equipe {
+        padding: 60px 5%;
+    }
+
+    .equipe__lista {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .citacao {
+        padding: 60px 7%;
+    }
+
+    .citacao blockquote {
+        font-size: 1.4rem;
+    }
+
+    .contato {
+        padding: 60px 5%;
+    }
+
+    .contato h2 {
+        font-size: 2.4rem;
+    }
+
+
+    /* NEWSLETTER */
+
+    .newsletter {
+        padding: 60px 5%;
+    }
+
+    .newsletter form {
+        flex-direction: column;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        width: 100%;
+    }
+
+
+    /* FOOTER */
+
+    .footer__links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+}
+
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+
+@media (max-width: 480px) {
+
+    /* HEADER */
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+
+    /* TÍTULOS */
+
+    .history-intro h1,
+    .agenda h1,
+    .missao h1 {
+        font-size: 2.3rem;
+    }
+
+    .editorial h1 {
+        font-size: 2.2rem;
+    }
+
+
+    /* CARDS */
+
+    .card-destaque,
+    .historia-card {
+        padding: 25px;
+    }
+
+
+    /* PERFORMANCES */
+
+    .evento h2 {
+        font-size: 2.1rem;
+    }
+
+    .swan-lake h2 {
+        font-size: 2.5rem;
+    }
+
+
+    /* HISTORY */
+
+    .destaque-mes h2 {
+        font-size: 2.3rem;
+    }
+
+
+    /* ABOUT */
+
+    .sobre-bloco__titulo h2 {
+        font-size: 1.8rem;
+    }
+
+    .citacao blockquote {
+        font-size: 1.2rem;
+    }
+
+    .contato h2 {
+        font-size: 2rem;
+    }
+
+}

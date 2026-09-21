@@ -1,34 +1,200 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repertórios</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <title>Café & Pontas</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 <body>
+
+    <!-- CABEÇALHO -->
     <header>
-        <h1 class="tituloPrincipal">Repertórios de balé</h1>
+
+        <a href="index.html" class="logo">
+            Café & Pontas
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">STORIES</a>
+                </li>
+
+                <li>
+                    <a href="#">PERFORMANCES</a>
+                </li>
+
+                <li>
+                    <a href="#">HISTORY</a>
+                </li>
+
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
-         <section>
-            <h2 class="tituloPergunta">O que é um repertório de balé?</h2>
-            <div class="tituloPergunta__texto">
-            <p>Um repertório de balé é uma obra clássica que faz parte da tradição dessa arte.</p>
-            <p>O repertório possui uma história própria, coreografias definidas, personagens marcantes, figurinos característicos e uma trilha sonora originalmente composta para acompanhar a narrativa.</p> 
-            <p>Esses balés são apresentados por companhias do mundo inteiro, mantendo vivas as criações de grandes coreógrafos e compositores.</p>
-            <p>Obras como Lago dos Cisnes, Coppélia e O Quebra-Nozes são exemplos de repertórios que atravessam gerações e continuam encantando o público.</p>
-            <p>Eles representam a base cultural do balé e são fundamentais para o desenvolvimento técnico, artístico e expressivo de qualquer bailarino.</p>
-            </div>
-            <div class="tituloPergunta__texto__botao">
-                <a href="coppelia.html">Coppélia</a>
-                <a href="lagoDosCisnes.html">Lago dos cisnes</a>
-                <a href="quebraNozes.html">O Quebra-Nozes</a>
-            </div>
-         </section> 
+
+        <!-- MATÉRIAS EM DESTAQUE -->
+        <section class="destaques">
+
+            <article class="card-destaque">
+                <span class="categoria">ROMANTISMO</span>
+
+                <h2>Coppelia</h2>
+
+                <p>
+                    Um balé leve, divertido e cheio de momentos cômicos.
+                </p>
+
+                <a href="#" class="link-materia">
+                    LER MATÉRIA COMPLETA
+                </a>
+            </article>
+
+
+            <article class="card-destaque">
+                <span class="categoria">NATALINO</span>
+
+                <h2>O Quebra-Nozes</h2>
+
+                <p>
+                    O conto de fadas que se tornou o espetáculo
+                    de fim de ano mais amado do mundo.
+                </p>
+
+                <a href="#" class="link-materia">
+                    LER MATÉRIA COMPLETA
+                </a>
+            </article>
+
+
+            <article class="card-destaque">
+                <span class="categoria">VIRTUOSISMO</span>
+
+                <h2>Lago dos Cisnes</h2>
+
+                <p>
+                    Uma princesa transformada em cisne por uma maldição, luta para quebrá-la diante do engano de um poderoso feiticeiro.
+                </p>
+
+                <a href="#" class="link-materia">
+                    LER MATÉRIA COMPLETA
+                </a>
+            </article>
+
+        </section>
+
+
+        <!-- EDITORIAL -->
+        <section class="editorial">
+
+            <span class="editorial__categoria">
+                EDITORIAL • BALÉ CLÁSSICO
+            </span>
+
+            <h1>A Arte do Ponto</h1>
+
+            <p class="editorial__introducao">
+                O balé não é apenas movimento; é uma linguagem
+                silenciosa que atravessa fronteiras.
+            </p>
+
+            <p>
+                Cada arabesco, cada piroueta, carrega séculos de
+                história e disciplina.
+            </p>
+
+            <p>
+                Em nosso último editorial, exploramos como os
+                coreógrafos contemporâneos reinterpretam os
+                clássicos sem perder a alma do repertório original —
+                mantendo viva a chama que Tchaikovsky acendeu.
+            </p>
+
+            <a href="#" class="botao">
+                LER MATÉRIA COMPLETA
+            </a>
+
+        </section>
+
     </main>
+
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+
+        <div class="newsletter__conteudo">
+
+            <h2>Café & Pontas</h2>
+
+            <span>NEWSLETTER</span>
+
+            <p>
+                Receba nossos editoriais mensais diretamente
+                no seu e-mail.
+            </p>
+
+            <form>
+
+                <label for="email">
+                    Seu e-mail
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+                <button type="submit">
+                    ASSINAR
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
     <footer>
-        <p class="rodape">Desenvolvido por Clara Kethurin</p>
-    </footer>       
+
+        <p>
+            Cobertura editorial dedicada ao balé clássico e à
+            dança contemporânea. Contando histórias através
+            do movimento.
+        </p>
+
+        <div class="footer__links">
+
+            <a href="#">TERMOS DE USO</a>
+
+            <a href="#">PRIVACIDADE</a>
+
+        </div>
+
+        <p>
+            © 2026 PLIÉ & PROSA EDITORIAIS
+        </p>
+
+    </footer>
+    
+    <script src="./js/main.js"></script>
+
 </body>
+
 </html>

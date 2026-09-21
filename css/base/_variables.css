@@ -1,0 +1,12 @@
+:root {
+    /* Cores */
+    --cor-fundo: #EAF3F6; /*Fundo principal*/
+    --cor-azul-claro: #B9D4DD; /*Fundos secundários e detalhes*/
+    --cor-azul-cinza: #8FA8B1; /*Elementos secundários*/
+    --cor-azul-escuro: #405A63; /*Títulos, menu, botões*/
+    --cor-branco: #F7F8F8; /*Cards e áreas claras*/
+
+    /* Tipografia */
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-texto: 'Lato', sans-serif;
+}

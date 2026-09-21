@@ -1,0 +1,115 @@
+/* =========================
+   INTRODUÇÃO
+========================= */
+
+.history-intro {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.history-intro h1 {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.history-intro p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   FILTROS
+========================= */
+
+.history-filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.history-filtros button {
+    padding: 10px 15px;
+
+    border: 1px solid var(--cor-azul-cinza);
+    background-color: transparent;
+
+    color: var(--cor-azul-escuro);
+
+    font-family: var(--fonte-texto);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    cursor: pointer;
+}
+
+.history-filtros button:hover {
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branco);
+}
+
+
+/* =========================
+   HISTÓRIAS
+========================= */
+
+.historias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.historia-card {
+    padding: 30px;
+
+    background-color: var(--cor-branco);
+
+    border-top: 3px solid var(--cor-azul-cinza);
+}
+
+.historia-card h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.historia-card p {
+    margin-bottom: 25px;
+    font-family: var(--fonte-texto);
+    font-size: 0.95rem;
+}
+
+
+/* =========================
+   MAIS HISTÓRIAS
+========================= */
+
+.mais-historias {
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+/* =========================
+   DESTAQUE DO MÊS
+========================= */
+
+.destaque-mes {
+    padding: 80px 10%;
+
+    background-color: var(--cor-branco);
+
+    text-align: center;
+}
+
+.destaque-mes h2 {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.destaque-mes p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}

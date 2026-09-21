@@ -1,0 +1,21 @@
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    list-style: none;
+}
+
+nav a {
+    font-family: var(--fonte-texto);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+
+    color: var(--cor-azul-escuro);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--cor-azul-cinza);
+}

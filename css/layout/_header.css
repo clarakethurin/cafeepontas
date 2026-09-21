@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 6%;
+
+    background-color: var(--cor-fundo);
+}
+
+.logo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    color: var(--cor-azul-escuro);
+    text-decoration: none;
+}

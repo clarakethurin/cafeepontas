@@ -1,0 +1,40 @@
+footer {
+    padding: 40px 6%;
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-azul-escuro);
+
+    border-top: 1px solid var(--cor-azul-cinza);
+
+    text-align: center;
+}
+
+footer p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+
+    font-family: var(--fonte-texto);
+    font-size: 0.85rem;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    margin-bottom: 20px;
+}
+
+.footer__links a {
+    font-family: var(--fonte-texto);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    color: var(--cor-azul-escuro);
+    text-decoration: none;
+}
+
+.footer__links a:hover {
+    color: var(--cor-azul-cinza);
+}
